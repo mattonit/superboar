@@ -1,14 +1,17 @@
-console.info("state3")
+console.info("state3");
 
-demo.state3 = function(){};
+demo.state3 = function () {
+};
 demo.state3.prototype = {
-	preload: function(){},
-	create: function(){
-		game.stage.backgroundColor = '#AAAAAA';
+    preload: function () {
+    },
+    create: function () {
+        game.stage.backgroundColor = '#AAAAAA';
 
-		        addChangeStateEventsListeners();
+        addChangeStateEventsListeners();
 
-	},
-	update: function(){}
+    },
+    update: function () {
+    }
 
 };
